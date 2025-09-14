@@ -1,0 +1,5 @@
+mood,precision,recall,f1,support
+Happy,0.905,0.893,0.899,75
+Relaxed,0.718,0.747,0.732,75
+Sad,0.759,0.8,0.779,75
+Stressed,0.986,0.907,0.944,75

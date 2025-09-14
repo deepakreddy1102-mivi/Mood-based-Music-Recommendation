@@ -1,0 +1,12 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+ECHO is on.
+# Jupyter
+.ipynb_checkpoints/
+ECHO is on.
+# OS noise
+.DS_Store
