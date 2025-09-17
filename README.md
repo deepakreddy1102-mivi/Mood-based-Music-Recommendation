@@ -9,11 +9,6 @@ Run these commands in **Command Prompt** (Windows):
     ".venv\Scripts\activate"
     jupyter lab
 
-Kernel: **Python (mood-music)**
-
-## How to run
-Open `notebooks/01_mood_music_pipeline.ipynb` and run cells top to bottom (or use **Kernel → Restart & Run All**).
-
 ## Pipeline
 EDA → cleaning (median/mode + IQR cap) → 80/20 stratified split → preprocessing (scaler + OHE) → models (LogReg, DT, RF, GB) with 5-fold CV → test evaluation → mood→genre rule → artifacts.
 
