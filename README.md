@@ -2,13 +2,6 @@
 
 **Goal.** Predict a user's *Mood* from physiological signals (Heart Rate, Skin Temperature, Blink Rate, Time of Day) and map it to a music genre.
 
-## Setup
-Run these commands in **Command Prompt** (Windows):
-
-    cd /d "D:\Data Science - py\mood-music"
-    ".venv\Scripts\activate"
-    jupyter lab
-
 ## Pipeline
 EDA → cleaning (median/mode + IQR cap) → 80/20 stratified split → preprocessing (scaler + OHE) → models (LogReg, DT, RF, GB) with 5-fold CV → test evaluation → mood→genre rule → artifacts.
 
